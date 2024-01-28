@@ -76,6 +76,14 @@ export class GeminiProApi implements LLMApi {
           category: "HARM_CATEGORY_DANGEROUS_CONTENT",
           threshold: "BLOCK_NONE",
         },
+        {
+          category: "HARM_CATEGORY_SEXUAL",
+          threshold: "BLOCK_NONE",
+        },
+        {
+          category: "HARM_CATEGORY_TOXICITY",
+          threshold: "BLOCK_NONE",
+        },
       ],
     };
 
